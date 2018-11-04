@@ -1,0 +1,5 @@
+input()
+english = set(input().split())
+input()
+allstudents = english.union(input().split())
+print(len(allstudents))
